@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>节气拟人志｜立冬与立秋</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: '宋体', SimSun, serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.8em;
+            color: #2d3436;
+            margin-bottom: 50px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .season-card {
+            background: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 25px;
+            transition: transform 0.3s;
+        }
+
+        .season-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .character-img {
+            width: 350px;
+            border-radius: 10px;
+            border: 3px solid #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .content-box {
+            flex: 1;
+            position: relative;
+        }
+
+        .mbti-tag {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .winter .mbti-tag {
+            background: #3498db;
+            color: #fff;
+        }
+
+        .autumn .mbti-tag {
+            background: #e67e22;
+            color: #fff;
+        }
+
+        .clothing-desc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid;
+        }
+
+        .winter .clothing-desc {
+            border-color: #3498db;
+        }
+
+        .autumn .clothing-desc {
+            border-color: #e67e22;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #2d3436;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .season-card {
+                flex-direction: column;
+            }
+            .character-img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">节气拟人图鉴·冬与秋</h1>
+
+        <!-- 立冬板块 -->
+        <div class="season-card winter">
+            <img src="Royce8B/images/lidong-character.png" alt="立冬拟人形象" class="character-img">
+            <div class="content-box">
+                <h2>❄️ 立冬·寒境之主</h2>
+                <span class="mbti-tag">MBTI：ISTJ</span>
+                <p>作为冬季的开启者，立冬化身严谨务实的秩序维护者。拥有强大的计划执行能力，善于将万物纳入冬季的运行规律。看似冷漠的外表下隐藏着对自然规律的温柔守护，喜欢通过制定清晰的规则来维持生态平衡。</p>
+                
+                <div class="clothing-desc">
+                    <h3>【霜雪衣装】</h3>
+                    <ul>
+                        <li>月白暗纹云锦斗篷：绣有冰晶纹样</li>
+                        <li>玄青皮质护腕：镶嵌蓝宝石</li>
+                        <li>雪狼毛领围脖：采用极地毛皮工艺</li>
+                        <li>寒铁腰带：雕刻二十四节气纹</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 立秋板块 -->
+        <div class="season-card autumn">
+            <img src="Royce8B/images/liqiu-character.png" alt="立秋拟人形象" class="character-img">
+            <div class="content-box">
+                <h2>🍂 立秋·丰穰诗人</h2>
+                <span class="mbti-tag">MBTI：INFP</span>
+                <p>作为夏秋之交的浪漫使者，立秋化身理想主义的文艺青年。具有敏锐的感知力和丰富的想象力，善于发现季节转换中的诗意细节。虽然外表温柔随和，但内心坚守着对自然美的独特理解，常在枫叶上记录季节絮语。</p>
+
+                <div class="clothing-desc">
+                    <h3>【金风服饰】</h3>
+                    <ul>
+                        <li>琥珀色薄纱外衫：印有麦浪纹样</li>
+                        <li>赭石色皮质腰封：点缀银杏铜饰</li>
+                        <li>茜色渐变披帛：采用草木染工艺</li>
+                        <li>黄玉穗形耳坠：雕刻丰收图腾</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

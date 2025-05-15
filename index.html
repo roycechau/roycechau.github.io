@@ -1,156 +1,112 @@
+
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>节气拟人志｜立冬与立秋</title>
+    <title>立秋 - 收获的季节</title>
     <style>
-        * {
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
-
-        body {
-            font-family: '宋体', SimSun, serif;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            line-height: 1.8;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        .title {
+        header {
+            background-color: #d4a373;
+            color: white;
+            padding: 20px;
             text-align: center;
-            font-size: 2.8em;
-            color: #2d3436;
-            margin-bottom: 50px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
-
-        .season-card {
-            background: rgba(255,255,255,0.9);
-            border-radius: 15px;
-            padding: 30px;
-            margin: 30px 0;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        .container {
             display: flex;
-            gap: 25px;
-            transition: transform 0.3s;
+            padding: 20px;
         }
-
-        .season-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .character-img {
-            width: 350px;
-            border-radius: 10px;
-            border: 3px solid #fff;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-
-        .content-box {
+        .sidebar {
             flex: 1;
-            position: relative;
+            background-color: #f8f8f8;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .mbti-tag {
-            display: inline-block;
-            padding: 8px 20px;
-            border-radius: 25px;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-
-        .winter .mbti-tag {
-            background: #3498db;
-            color: #fff;
-        }
-
-        .autumn .mbti-tag {
-            background: #e67e22;
-            color: #fff;
-        }
-
-        .clothing-desc {
-            background: #f8f9fa;
+        .main-content {
+            flex: 3;
+            background-color: white;
             padding: 20px;
             border-radius: 8px;
-            margin: 20px 0;
-            border-left: 4px solid;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .winter .clothing-desc {
-            border-color: #3498db;
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
-
-        .autumn .clothing-desc {
-            border-color: #e67e22;
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
-
         h2 {
-            font-size: 1.8em;
-            color: #2d3436;
-            margin-bottom: 15px;
+            color: #d4a373;
         }
-
-        @media (max-width: 768px) {
-            .season-card {
-                flex-direction: column;
-            }
-            .character-img {
-                width: 100%;
-            }
+        a {
+            color: #d4a373;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">节气拟人图鉴·冬与秋</h1>
+    <header>
+        <h1>立秋 - 收获的季节</h1>
+    </header>
 
-        <!-- 立冬板块 -->
-        <div class="season-card winter">
-            <img src="Royce8B/images/lidong-character.png" alt="立冬拟人形象" class="character-img">
-            <div class="content-box">
-                <h2>❄️ 立冬·寒境之主</h2>
-                <span class="mbti-tag">MBTI：ISTJ</span>
-                <p>作为冬季的开启者，立冬化身严谨务实的秩序维护者。拥有强大的计划执行能力，善于将万物纳入冬季的运行规律。看似冷漠的外表下隐藏着对自然规律的温柔守护，喜欢通过制定清晰的规则来维持生态平衡。</p>
-                
-                <div class="clothing-desc">
-                    <h3>【霜雪衣装】</h3>
-                    <ul>
-                        <li>月白暗纹云锦斗篷：绣有冰晶纹样</li>
-                        <li>玄青皮质护腕：镶嵌蓝宝石</li>
-                        <li>雪狼毛领围脖：采用极地毛皮工艺</li>
-                        <li>寒铁腰带：雕刻二十四节气纹</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="container">
+        <!-- 左侧栏 -->
+        <div class="sidebar">
+            <h2>立秋简介</h2>
+            <p>立秋，是二十四节气中的第13个节气，也是秋天的第一个节气。每年公历8月7日或8日，太阳到达黄经135°时为立秋。立秋的到来，意味着夏天即将结束，秋天即将开始。</p>
+
+            <h2>MBTI人格分析</h2>
+            <p>立秋的INFP人格特质体现在以下几个方面：</p>
+            <ul>
+                <li><strong>安静温和:</strong> 立秋时节，天气转凉，万物开始收敛，给人一种安静温和的感觉。</li>
+                <li><strong>务实勤劳:</strong> 立秋是收获的季节，农民们开始忙碌地收割庄稼，体现了ISFJ人格务实勤劳的特质。</li>
+                <li><strong>富有同情心:</strong> 立秋时节，大雁南飞，落叶归根，容易引发人们的思乡之情，体现了ISFJ人格富有同情心的特质。</li>
+                <li><strong>注重传统:</strong> 立秋是一个传统的节气，人们会举行各种庆祝活动，体现了ISFJ人格注重传统的特质。</li>
+            </ul>
         </div>
 
-        <!-- 立秋板块 -->
-        <div class="season-card autumn">
-            <img src="Royce8B/images/liqiu-character.png" alt="立秋拟人形象" class="character-img">
-            <div class="content-box">
-                <h2>🍂 立秋·丰穰诗人</h2>
-                <span class="mbti-tag">MBTI：INFP</span>
-                <p>作为夏秋之交的浪漫使者，立秋化身理想主义的文艺青年。具有敏锐的感知力和丰富的想象力，善于发现季节转换中的诗意细节。虽然外表温柔随和，但内心坚守着对自然美的独特理解，常在枫叶上记录季节絮语。</p>
+        <!-- 右侧栏 -->
+        <div class="main-content">
+            <h2>图片展示</h2>
+            <img src="liqiu.JPG" alt="金黄色的麦田">
 
-                <div class="clothing-desc">
-                    <h3>【金风服饰】</h3>
-                    <ul>
-                        <li>琥珀色薄纱外衫：印有麦浪纹样</li>
-                        <li>赭石色皮质腰封：点缀银杏铜饰</li>
-                        <li>茜色渐变披帛：采用草木染工艺</li>
-                        <li>黄玉穗形耳坠：雕刻丰收图腾</li>
-                    </ul>
-                </div>
-            </div>
+            <h2>诗词鉴赏</h2>
+            <h3>《立秋》杜甫</h3>
+            <p>乳鸦啼散玉屏空，一枕新凉一扇风。<br>睡起秋声无觅处，满阶梧叶月明中。</p>
+            <p><strong>赏析:</strong> 这首诗描绘了立秋之夜的景象，表达了诗人对时光流逝的感慨和对秋天的喜爱。</p>
+
+            <h2>养生建议</h2>
+            <ul>
+                <li>立秋之后，天气逐渐转凉，要注意增添衣物，防止着凉。</li>
+                <li>饮食上可以多吃一些滋阴润燥的食物，如梨、百合、银耳等。</li>
+                <li>保持适当的运动，增强体质，迎接冬天的到来。</li>
+            </ul>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2025 立秋主题网页 Royce Hank Vivian Hennry Tiger.</p>
+    </footer>
 </body>
 </html>
